@@ -54,7 +54,7 @@ if __name__ == '__main__':
 
 Now click the plus folder icon somewhere near the top left of you screen. Please add in a new folder called templates. This folder will store html files which holds the code for what the computer displays on the screen. After creating the folder, add a new file in the folder called ```welcome.html```. This is the html file that I was talking about. Now below there is some html code. Copy and paste it into the ```welcome.html``` file. After you're done, click the green run button you see at the top center of your screen. It should display another window on your screen showcasing your website. And you're done! You've created your own website which can be accessible to anyone. 
 
-```python
+```html
 <!DOCTYPE html>
 <html>
   <head>
