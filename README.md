@@ -42,6 +42,10 @@ app = Flask(__name__)
 def home():
     return "Hello, World!"  # return a string
 
+@app.route('/page')
+def pageName():
+    return "<h1>Hello There</h1>"  # return a string
+
 @app.route('/welcome')
 def welcome():
     return render_template('welcome.html')  # render a template
